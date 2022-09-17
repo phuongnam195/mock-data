@@ -1,0 +1,107 @@
+{
+    "check-status-in-process": {
+        "code": 200,
+        "message": "Success",
+        "data": {
+            "tiki_lead_id": "62b13a1f9c09646a773f40b0",
+            "status": "IN_PROCESS",
+            "interval": 5,
+            "max_interval": 30,
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Chúng tôi sẽ gửi thông báo đến tài khoản của bạn ngay khi có kết quả.",
+                "title": "Hồ sơ của bạn đang trong quá trình xử lý",
+                "color_title": "#1A94FF",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [
+                    {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            },
+            "current_page": ""
+        }
+    },
+    "check-status-reject": {
+        "code": 200,
+        "message": "Success",
+        "data": {
+            "tiki_lead_id": "62b13a1f9c09646a773f40b0",
+            "status": "REJECTED",
+            "interval": 5,
+            "max_interval": 30,
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Hồ sơ của quý khách xảy ra lỗi trong quá trình thao tác. Vui lòng thực hiện lại. ",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [
+                    {
+                        "button_text": "Nộp lại hồ sơ",
+                        "deep_link": "tikivn://mua-truoc-tra-sau",
+                        "url_name": "bnpl-phone-and-email",
+                        "button_type": "default"
+                    },
+                    {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            },
+            "current_page": "E_CONTRACT"
+        }
+    },
+    "check-status-curr-info": {
+        "code": 200,
+        "message": "Success",
+        "data": {
+            "tiki_lead_id": "62b13a1f9c09646a773f40b0",
+            "status": "REJECTED",
+            "interval": 5,
+            "max_interval": 30,
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Hồ sơ của quý khách xảy ra lỗi trong quá trình thao tác. Vui lòng thực hiện lại. ",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [
+                    {
+                        "button_text": "Nộp lại hồ sơ",
+                        "deep_link": "tikivn://mua-truoc-tra-sau",
+                        "url_name": "bnpl-phone-and-email",
+                        "button_type": "default"
+                    },
+                    {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            },
+            "current_page": "OTHER_INFO"
+        }
+    }
+}

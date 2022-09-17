@@ -1,0 +1,89 @@
+{
+    "loan-info-ok": {
+        "code": 200,
+        "status": "Success",
+        "message": "",
+        "data": [{
+                "billing_date": "02/08/2022",
+                "billing_list": [{
+                        "grand_total": "13.123.123 đ",
+                        "billing_detail": [{
+                                "label": "Mã giao dịch",
+                                "value": "33231231",
+                                "color": "#000000"
+                            }, {
+                                "label": "Kỳ hạn",
+                                "value": "1 tháng",
+                                "color": "#000000"
+                            }, {
+                                "label": "Lãi suất",
+                                "value": "0%",
+                                "color": "#000000"
+                            }, {
+                                "label": "Trạng thái",
+                                "value": "Đang xữ lý",
+                                "color": "#1233221"
+                            }, {
+                                "label": "Nôi dung",
+                                "value": "Thanh Toán tại TIKI",
+                                "color": "#000000"
+                            }
+                        ]
+                    }, {
+                        "grand_total": "3.500.000 đ",
+                        "billing_detail": [{
+                                "label": "Mã giao dịch",
+                                "value": "33231231",
+                                "color": "#000000"
+                            }, {
+                                "label": "Kỳ hạn",
+                                "value": "1 tháng",
+                                "color": "#000000"
+                            }, {
+                                "label": "Lãi suất",
+                                "value": "0%",
+                                "color": "#000000"
+                            }, {
+                                "label": "Trạng thái",
+                                "value": "Đang xữ lý",
+                                "color": "#1233221"
+                            }, {
+                                "label": "Nôi dung",
+                                "value": "Thanh Toán tại TIKI",
+                                "color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }, {
+                "billing_date": "20/08/2022",
+                "billing_list": [{
+                        "grand_total": "250.000 đ",
+                        "billing_detail": [{
+                                "label": "Mã giao dịch",
+                                "value": "234234628",
+                                "color": "#000000"
+                            }, {
+                                "label": "Kỳ hạn",
+                                "value": "3 tháng",
+                                "color": "#000000"
+                            }, {
+                                "label": "Lãi suất",
+                                "value": "3%",
+                                "color": "#000000"
+                            }, {
+                                "label": "Trạng thái",
+                                "value": "Đang xữ lý",
+                                "color": "#1233221"
+                            }, {
+                                "label": "Nôi dung",
+                                "value": "Thanh Toán tại TIKI",
+                                "color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "verify-otp-success": {
+        "code": 200,
+        "data": {
+            "tiki_lead_id": "123456",
+            "status": "OTP_SUCCESS",
+            "phone": "0825784302",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Hạn mức của bạn đã sẵn sàng để mua sắm",
+                "title": "Đăng ký thành công",
+                "color_title": "#00AB56",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [{
+                        "button_text": "Tiếp tục mua sắm với Tiki",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            },
+            "current_page": "string"
+        }
+    },
+    "verify-otp-rejected": {
+        "code": 200,
+        "data": {
+            "current_page": "",
+            "tiki_lead_id": "12321321",
+            "status": "OTP_FAIL",
+            "phone": "0825784302",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Rất tiếc! Hồ sơ Mua trước - Trả sau {partner name} của bạn chưa được phê duyệt tại thời điểm này. Chúng tôi sẽ thông báo đến bạn khi có chương trình phù hợp.",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [{
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }],
+				"footer_desc": "<p>Vui lòng liên hệ <span style=\"color: #0B74E5;\">1900 6866</span> để biết thêm chi tiết.</p>"
+                
+            }
+        }
+    },
+	"verify-otp-created": {
+        "code": 200,
+        "data": {
+            "current_page": "",
+            "tiki_lead_id": "12321321",
+            "status": "OTP_FAIL",
+            "phone": "0825784302",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Hồ sơ Mua trước trả sau <partner name> của bạn đã được liên kết với Tiki. Vui lòng tiếp tục để xác thực tài khoản",
+                "title": "Thông báo",
+                "color_title": "#1A94FF",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [{
+                        "button_text": "Tiếp tục",
+                        "deep_link": "tikivn://bnpl-auth-otp",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+				]
+            }
+        }
+    },
+	"verify-otp-retry": {
+        "code": 200,
+        "data": {
+            "current_page": "",
+			"tiki_lead_id": "123456",
+            "status": "OTP_FAIL",
+            "phone": "0825784302",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Xin vui lòng thử lại.",
+                "title": "Đã có lỗi xảy ra",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [{
+                        "button_text": "Thử lại",
+                        "deep_link": "tikivn://bnpl-retry",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+				]
+            }
+        }
+    },
+	"verify-otp-wrong-expired": {
+        "code": 200,
+        "data": {
+            "current_page": "",
+			"tiki_lead_id": "123456",
+            "status": "OTP_FAIL_RESEND",
+            "phone": "0825784302",
+            "error_info": {
+                "message": "Mã xác thực không đúng hoặc đã hết hạn"
+            }
+        }
+    },
+	"verify-otp-wrong-expired": {
+        "code": 200,
+        "data": {
+            "current_page": "",
+			"tiki_lead_id": "123456",
+            "status": "OTP_FAIL_HOME",
+            "phone": "0825784302",
+            "error_info": {
+                "message": "Bạn đã nhập sai OTP quá số lần quy định. Bạn vui lòng thử lại vào ngày hôm sau."
+            }
+        }
+    }
+}

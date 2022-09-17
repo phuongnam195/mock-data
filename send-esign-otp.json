@@ -1,0 +1,79 @@
+{
+    "send-esign-otp-success": {
+        "code": 200,
+        "data": {
+            "current_page": "string",
+            "status": "OTP_SUCCESS",
+            "tiki_lead_id": "123abc"
+        }
+    },
+    "send-esign-otp-resend": {
+        "code": 200,
+        "data": {
+            "current_page": "string",
+            "status": "OTP_FAIL_RESEND",
+            "tiki_lead_id": "123abc",
+            "error_info": {
+                "message": "Đã có lỗi xảy ra vui lòng gửi lại mã"
+            }
+        }
+    },
+    "send-esign-otp-fail": {
+        "code": 200,
+        "data": {
+            "current_page": "string",
+            "status": "OTP_FAIL",
+            "tiki_lead_id": "123abc",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Rất tiếc! Hồ sơ Mua trước - Trả sau {partner name} của bạn chưa được phê duyệt tại thời điểm này. Chúng tôi sẽ thông báo đến bạn khi có chương trình phù hợp.",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "footer_desc": "Vui lòng liên hệ 1900 6866 để biết thêm chi tiết.",
+                "action_list": [
+                    {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            }
+        }
+    },
+	"send-esign-otp-fail-home": {
+        "code": 200,
+        "data": {
+            "current_page": "string",
+            "status": "OTP_FAIL_HOME",
+            "tiki_lead_id": "123abc",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Rất tiếc! Hồ sơ Mua trước - Trả sau {partner name} của bạn chưa được phê duyệt tại thời điểm này. Chúng tôi sẽ thông báo đến bạn khi có chương trình phù hợp.",
+                "title": "FAIL HOME",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "footer_desc": "Vui lòng liên hệ 1900 6866 để biết thêm chi tiết.",
+                "action_list": [
+                    {
+                        "button_text": "Về trang chủ",
+                        "deep_link": "tikivn://home",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            }
+        }
+    }
+}

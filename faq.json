@@ -1,0 +1,31 @@
+{
+    "faq-ok": {
+        "code": 200,
+        "message": "Success",
+        "data": {
+            "label": "Thông tin liên quan tới khoản vay....",
+            "components": [{
+                    "title": "A. Dang ky han muc phe duyet va tu choi",
+                    "contents": [{
+                            "question": "1. có thể duyệt cho vay tối đa bao nhiêu tiền",
+                            "answer": "<a>link</a> ádasds <i>ádasd</i>"
+                        }, {
+                            "question": "1. có thể duyệt cho vay tối đa bao nhiêu tiền",
+                            "answer": "<a>link</a> ádasds <i>ádasd</i>"
+                        }
+                    ]
+                }, {
+                    "title": "B. Dang ky han muc phe duyet va tu choi",
+                    "contents": [{
+                            "question": "1. có thể duyệt cho vay tối đa bao nhiêu tiền",
+                            "answer": "<a>link</a> ádasds <i>ádasd</i>"
+                        }, {
+                            "question": "1. có thể duyệt cho vay tối đa bao nhiêu tiền",
+                            "answer": "<a>link</a> ádasds <i>ádasd</i>"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

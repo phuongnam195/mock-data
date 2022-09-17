@@ -1,0 +1,53 @@
+{
+    "esign-draft-contract-ok": {
+        "code": 200,
+        "data": {
+            "contract_info": {
+                "company_name": "Công ty tài chính Lotte Finance",
+                "contract_name": "Hợp đồng Tín dụng",
+                "download_expired_at": 10,
+                "e_sign_draft_url": "https://dtbd.moha.gov.vn/uploads/resources/admin/CDLD/Chuyen%20Vien/ChuyenDe15.pdf"
+            },
+            "current_page": "LTADASD",
+            "extra_info": {
+                "content": "Tài khoản Mua Trước - Trả Sau của quý khách sẽ có hạn mức mua sắm lên đến:",
+                "image": "https://picsum.photos/200/200",
+                "limit_amount": 7000000,
+                "title": "Hạn mức được phê duyệt"
+            },
+            "tiki_lead_id": "3483274893748923"
+        }
+    },
+    "esign-draft-contract-fail": {
+        "code": 200,
+        "data": {
+            "current_page": "LTADASD",
+            "error_info": {
+                "extensions": {
+                    "code": "",
+                    "field": "",
+                    "status_code": 0,
+                    "back_to_home": false
+                },
+                "message": "Hồ sơ của quý khách xảy ra lỗi trong quá trình thao tác. Vui lòng thực hiện lại. ",
+                "title": "Đăng ký thất bại",
+                "color_title": "#FF424E",
+                "image_url": "https://salt.tikicdn.com/ts/tmp/e9/74/54/d0c2be756d782ba1dbf242119b0a68af.png",
+                "action_list": [
+                    {
+                        "button_text": "Về lại đầu",
+                        "deep_link": "tikivn://bnpl-origination",
+                        "button_type": "default"
+                    },
+                    {
+                        "button_text": "Thử lại",
+                        "deep_link": "tikivn://bnpl-retry",
+                        "url_name": "home",
+                        "button_type": "primary"
+                    }
+                ]
+            },
+            "tiki_lead_id": "fdsfsdf"
+        }
+    }
+}
